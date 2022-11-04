@@ -19,7 +19,6 @@ public class Logentries {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String userid;
-    private String entryid;
     private Long edittimestamp;
     private int systolic;
     private int diastolic;
@@ -33,6 +32,11 @@ public class Logentries {
     public String toString() {
         return userid;
     }
+
+    public boolean getArrhythmias() {
+        return arrhythmias;
+    }
+
 }
 
 
