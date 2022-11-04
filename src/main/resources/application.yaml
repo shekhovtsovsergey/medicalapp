@@ -1,6 +1,7 @@
 spring:
   datasource:
     url: "jdbc:postgresql://localhost:5432/medical"
-
+    username: "medical"
+    password: "medical"
 server:
   port : 8081
